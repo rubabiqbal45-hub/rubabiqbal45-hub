@@ -10,6 +10,7 @@ A dedicated Information Technology graduate specializing in automated threat int
 *   **Specialized Certifications:** 
     *   *CS50 Introduction to Cybersecurity* – **Harvard University**
     *   *Introduction to Cybersecurity* – **Cisco**
+    *   *AWS Networking Basics* – **Coursera**
     *   *Professional Security & Technical Specializations* – **Coursera**
 *   **Core Toolkit:** Python, LangChain, Linux, Git Version Control, Threat Infrastructure Modeling
 
