@@ -17,7 +17,7 @@ A dedicated Information Technology graduate specializing in automated threat int
 
 ### 🔬 Highlighted Research Projects
 
-#### 🛡️ [SOC Alert Fatigue Mitigation Project of NMF](https://github.com)
+#### 🛡️ [SOC Alert Fatigue Mitigation Project of NMF]([https://github.com](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue))
 *An automated, context-aware engineering framework built natively in Python using the Neural Matrix Framework (NMF) approach to reduce background log noise.*
 *   **The Framework (NMF):** Implements a pipeline design that correlates multi-layered security alerts at runtime.
 *   **The Technology:** Built with Python, structured in-context prompt blueprints, and localized data schemas.
@@ -27,7 +27,7 @@ A dedicated Information Technology graduate specializing in automated threat int
 
 ### 🔬 Highlighted Research Projects
 
-#### 🛡️ [SOC Alert Triage RAG Pipeline Engine](https://github.com)
+#### 🛡️ [SOC Alert Triage RAG Pipeline Engine]([https://github.com](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue))
 *An automated context-enrichment script framework built natively in Python to mitigate analyst alert fatigue.*
 *   **The Tech:** Python, In-context Learning Prompts, Dynamic Mapping Logic.
 *   **The Rigor:** Features a custom, multi-layered data blender matching raw logs against mock CMDB configurations.
