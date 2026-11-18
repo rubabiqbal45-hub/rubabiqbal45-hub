@@ -1,71 +1,74 @@
-# Hi there, I'm Umm e rubab Muhammad Iqbal 👋
+# Hi there, I'm Umm e Rubab Muhammad Iqbal 👋
 
-Information Technology Graduate | IT Infrastructure Administration, Systems Monitoring, & Backend Automation Specialist
+Information Technology Graduate | SOC Analyst (aspiring) | IT Infrastructure Administration, Systems Monitoring & Detection Engineering
+
+🟢 **Open to work** — SOC Analyst roles in Karachi, Faisalabad, Punjab, and Germany (remote/relocation open)
 
 ---
 
 ### 🛠 Technical Matrix
 
-- **Core Focus:** IT Infrastructure Administration, Virtualization, System Monitoring, Patch & Backup Management, SOC Collaboration
+- **Core Focus:** Detection Engineering, SIEM/Log Analysis, IT Infrastructure Administration, Virtualization, Patch & Backup Management
 - **Operating Systems & Services:** Windows Server, Linux, Active Directory, DNS, DHCP, File Services / DFS
-- **Networking & Protocols:** Fundamentals (TCP/IP, Routing & Switching, VLANs), Packet Tracer Network Simulation
+- **Security Tools:** Splunk, Sysmon, Wazuh, VirusTotal API, SIEM Telemetry
+- **Networking & Protocols:** TCP/IP, Routing & Switching, VLANs, Packet Tracer Network Simulation
 - **Languages & Automation:** Python (Scripting & Automation), PowerShell, Bash, Git/Git Bash
-- **Tools & Methodologies:** SIEM Telemetry, Wazuh/Sysmon Log Monitoring, Retrieval-Augmented Generation (RAG) Frameworks, ITIL Processes
+- **Frameworks & Methodologies:** NIST SP 800-61 Incident Handling, ITIL Processes, Retrieval-Augmented Generation (RAG)
 
 ---
 
-### 🔬 Highlighted Research Projects
+### 🔬 Security Projects
 
-#### 🛡️ [SOC Alert Fatigue Mitigation Project of NMF]([https://github.com](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue))
-*An automated, context-aware engineering framework built natively in Python using the Neural Matrix Framework (NMF) approach to reduce background log noise.*
-*   **The Framework (NMF):** Implements a pipeline design that correlates multi-layered security alerts at runtime.
-*   **The Technology:** Built with Python, structured in-context prompt blueprints, and localized data schemas.
-*   **Validation Rigor:** Covered by a rigorous, automated unit-testing suite (`unittest`) confirming a 100% logic validation pass flag across critical, medium, and unmapped infrastructure pathways.
+#### 🔍 [SOC Detection Lab](https://github.com/rubabiqbal45-hub/soc-detection-lab)
+A self-built Active Directory attack-and-detection lab (Windows Server 2022 DC + Windows Server 2016 workstation), with detections verified against real Windows Security log output and live-fired through Splunk.
+- Built and fired two live Splunk detections: Kerberoasting (RC4 ticket encryption) and password spraying (distinct-account threshold), confirmed via Splunk's Trigger History
+- Diagnosed and fixed real infrastructure issues along the way: a VirtualBox Host-Only subnet mismatch, and the common "4625 alone misses most password-guessing attempts" detection gap
 
----
+#### 🎣 [Phishing Investigation & IOC Enrichment](https://github.com/rubabiqbal45-hub/phishing-investigation-ioc-enrichment)
+A Python tool that investigates real phishing emails — parses headers, extracts every IOC (URLs, domains, IPs, attachment hashes), enriches each against VirusTotal's live API, scores risk, and writes an actionable report.
+- Processed 19 real phishing emails from the Nazario Phishing Corpus; every risk score traces back to a real VirusTotal vendor verdict
+- Flagged a real typosquat of a federal agency's domain (NCUA) hidden inside a URL path
 
-### 🔬 Highlighted Research Projects
+#### 📋 [Ransomware Incident Response Playbook](https://github.com/rubabiqbal45-hub/ransomware-ir-playbook)
+A NIST SP 800-61–based IR playbook, stress-tested with a live solo tabletop exercise rather than left untested.
+- Played every IR role against a live-injected ransomware scenario, answering cold before checking the playbook
+- Found and fixed 4 real gaps: missing containment fallback, a too-vague eradication step, no named IC succession, no public-decryptor trust criteria
 
-#### 🛡️ [SOC Alert Triage RAG Pipeline Engine]([https://github.com](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue))
-*An automated context-enrichment script framework built natively in Python to mitigate analyst alert fatigue.*
-*   **The Tech:** Python, In-context Learning Prompts, Dynamic Mapping Logic.
-*   **The Rigor:** Features a custom, multi-layered data blender matching raw logs against mock CMDB configurations.
-*   **Quality Assurance:** Fully covered by an automated unit testing suite (`unittest`) ensuring absolute logical precision.
+#### 🛡️ [SOC Alert Triage & Fatigue Mitigation Pipeline](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue)
+An automated, context-aware alert-triage framework in Python that correlates multi-layered security alerts at runtime to cut down background log noise.
+- **The tech:** Python, in-context prompt blueprints, a custom multi-layered data blender matching raw logs against mock CMDB configurations
+- **Validation rigor:** covered by an automated `unittest` suite confirming logic validation across critical, medium, and unmapped infrastructure pathways
 
----
+#### 🛡️ [Native ML Alert Triage & Deceptive False Positive Reduction Framework](https://github.com/rubabiqbal45-hub/deceptive-FP_Benign-alert-)
+- Engineered an offline-capable, CPU-run backend pipeline handling structured system logs and enterprise-scale telemetry
+- Implemented data parsing, feature engineering, and baseline configurations matching enterprise monitoring needs
+- Incorporated temporal splits, queue simulation metrics, and adversarial/drift stress tests into an automated evaluation framework
 
-#### 🛡️ [Native ML Alert Triage & Deceptive False Positive Reduction Framework]()
-- Engineered an offline-capable, CPU-run backend pipeline handling structured system logs and enterprise-scale telemetry.
-- Implemented rigorous data parsing, feature engineering, and robust baseline configurations matching enterprise system monitoring needs.
-- Incorporated temporal splits, queue simulation metrics, and adversarial/drift stress tests into an automated evaluation framework.
-
-
-
-#### 📱 [Android Hall Booking Application](https://github.com/rubabiqbal45-hub/rubabiqbal45-hub)
-- Designed and developed a full-scale digital management framework, implementing secure user authentication flows and optimized data storage schemes to handle concurrent transactional requests.
+#### 📱 Android Hall Booking Application
+Designed and developed a full-scale digital management framework, implementing secure user authentication flows and optimized data storage schemes to handle concurrent transactional requests.
 
 ---
 
 ### 💼 Leadership & Professional Experience
 
 - **Clothing Warehouse Business | Operations & Leadership Manager**
-  - Directed infrastructure logistics, transaction record management, digital payment frameworks, and operational scaling budgets.
+  Directed infrastructure logistics, transaction record management, digital payment frameworks, and operational scaling budgets.
 - **Government College Women University Faisalabad (GCWUF) | Student Intern / IT Support**
-  - Assisted campus administrative divisions with digital asset organization, technical network troubleshooting, hardware/software maintenance, and local IT operations support.
+  Assisted campus administrative divisions with digital asset organization, technical network troubleshooting, hardware/software maintenance, and local IT operations support.
 
 ---
 
 ### 🎓 Academic & Professional Certifications
 
-*   **Bachelor of Science in Information Technology (BS IT)** – Government College Women University Faisalabad (GCWUF), Pakistan *(CGPA: 3.29/4.0, H+ Accredited Degree, Verified English Medium of Instruction available)*
-*   **Specialized Certifications:** 
-    *   *CS50 Introduction to Cybersecurity* – **Harvard University**
-    *   *Introduction to Cybersecurity* – **Cisco**
-    *   *Networking Basics* – **Cisco**
-    *   *Getting Started with Cisco Packet Tracer* – **Cisco**
-    *   *AWS Networking Basics* – **Coursera**
-    *   *Professional Security & Technical Specializations* – **Coursera**
-*   **Core Toolkit:** Python, LangChain, Linux, Git Version Control, Threat Infrastructure Modeling
+- **Bachelor of Science in Information Technology (BS IT)** – Government College Women University Faisalabad (GCWUF), Pakistan *(CGPA: 3.29/4.0, H+ Accredited Degree, Verified English Medium of Instruction available)*
+- **Specialized Certifications:**
+  - *CS50 Introduction to Cybersecurity* – Harvard University
+  - *Introduction to Cybersecurity* – Cisco
+  - *Networking Basics* – Cisco
+  - *Getting Started with Cisco Packet Tracer* – Cisco
+  - *AWS Networking Basics* – Coursera
+  - *Professional Security & Technical Specializations* – Coursera
+- **Core Toolkit:** Python, LangChain, Linux, Git Version Control, Threat Infrastructure Modeling
 
 ---
 
@@ -73,8 +76,10 @@ Information Technology Graduate | IT Infrastructure Administration, Systems Moni
 
 - **GitHub:** [@rubabiqbal45-hub](https://github.com/rubabiqbal45-hub)
 - **Email:** rubabiqbal45@gmail.com
- 
+- **LinkedIn:** https://www.linkedin.com/in/ummerubab-iqbal/
+
 ---
 
 ### 📊 GitHub Statistics
-![Your GitHub Stats](https://vercel.app)
+
+![Rubab's GitHub Stats](https://github-readme-stats.vercel.app/api?username=rubabiqbal45-hub&show_icons=true&theme=default)
