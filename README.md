@@ -34,6 +34,11 @@ A NIST SP 800-61–based IR playbook, stress-tested with a live solo tabletop ex
 - Played every IR role against a live-injected ransomware scenario, answering cold before checking the playbook
 - Found and fixed 4 real gaps: missing containment fallback, a too-vague eradication step, no named IC succession, no public-decryptor trust criteria
 
+#### ☁️ [Cloud & IAM Misconfiguration Assessment](https://github.com/rubabiqbal45-hub/cloud-iam-misconfig-assessment)
+A deliberately misconfigured AWS environment (built locally, no cloud account needed), audited and remediated the way a real cloud security/IAM review works.
+- Found and fixed two real-world misconfigurations: a publicly-readable S3 bucket (`AllUsers: READ`) and an IAM role with unrestricted `*:*` admin access — each confirmed via CLI audit, fixed, then re-verified
+- Pivoted through three different tools (flaws.cloud → LocalStack → moto) after hitting a paid-AWS-account requirement and a vendor's free tier disappearing mid-project, without spending a cent
+
 #### 🛡️ [SOC Alert Triage & Fatigue Mitigation Pipeline](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue)
 An automated, context-aware alert-triage framework in Python that correlates multi-layered security alerts at runtime to cut down background log noise.
 - **The tech:** Python, in-context prompt blueprints, a custom multi-layered data blender matching raw logs against mock CMDB configurations
