@@ -2,7 +2,7 @@
 
 Information Technology Graduate | SOC Analyst (aspiring) | IT Infrastructure Administration, Systems Monitoring & Detection Engineering
 
-🟢 **Open to work** — SOC Analyst roles in Karachi, Faisalabad, Punjab, and Germany (remote/relocation open)
+🟢 **Open to work** — SOC Analyst roles (remote/relocation open)
 
 ---
 
