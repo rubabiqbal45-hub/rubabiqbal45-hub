@@ -58,6 +58,10 @@ Designed and developed a full-scale digital management framework, implementing s
 
 - **Clothing Warehouse Business | Operations & Leadership Manager**
   Directed infrastructure logistics, transaction record management, digital payment frameworks, and operational scaling budgets.
+- **PwC US | Cybersecurity Consulting Job Simulation (Forage)** — *November 2026*
+  Completed a job simulation focused on a cybersecurity risk assessment for PwC: determined whether controls were missing from a process, identified the risks associated with those gaps, completed Test of Design and Operating Effectiveness documentation, and created a one-slide summary to present findings.
+- **Mastercard | Cybersecurity Virtual Experience Program (Forage)** — *November 2026*
+  Served as an analyst on Mastercard's Security Awareness Team: helped identify and report security threats such as phishing, and analyzed which areas of the business needed more robust security training, implementing training courses and procedures for those teams.
 - **Government College Women University Faisalabad (GCWUF) | Student Intern / IT Support**
   Assisted campus administrative divisions with digital asset organization, technical network troubleshooting, hardware/software maintenance, and local IT operations support.
 
@@ -75,7 +79,6 @@ Designed and developed a full-scale digital management framework, implementing s
   - *Professional Security & Technical Specializations* – Coursera
 - **Core Toolkit:** Python, LangChain, Linux, Git Version Control, Threat Infrastructure Modeling
 
----
 
 ### 📫 Connect with Me
 
