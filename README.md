@@ -2,7 +2,7 @@
 
 Information Technology Graduate | SOC Analyst (aspiring) | IT Infrastructure Administration, Systems Monitoring & Detection Engineering
 
-🟢 **Open to work** — SOC Analyst roles (remote/relocation open)
+🟢 **Open to work** — SOC Analyst roles  (remote/relocation open)
 
 ---
 
@@ -38,6 +38,11 @@ A NIST SP 800-61–based IR playbook, stress-tested with a live solo tabletop ex
 A deliberately misconfigured AWS environment (built locally, no cloud account needed), audited and remediated the way a real cloud security/IAM review works.
 - Found and fixed two real-world misconfigurations: a publicly-readable S3 bucket (`AllUsers: READ`) and an IAM role with unrestricted `*:*` admin access — each confirmed via CLI audit, fixed, then re-verified
 - Pivoted through three different tools (flaws.cloud → LocalStack → moto) after hitting a paid-AWS-account requirement and a vendor's free tier disappearing mid-project, without spending a cent
+
+#### 🔎 [Vulnerability Management Report](https://github.com/rubabiqbal45-hub/vuln-management-report)
+A live Nmap scan of my own Active Directory lab, risk-ranked by real exploitability and business impact rather than raw scanner severity, with a prioritized remediation plan.
+- Ranked a Kerberoasting weakness above theoretical findings because it was already proven exploitable in this same lab, not just possible in theory
+- Pivoted from a planned second scanner (Nessus) to Nmap's `vulners` CVE script after a multi-hour backend install failure, and treated "zero CVE matches" as a real finding rather than a dead end
 
 #### 📋 [Security Risk Assessment (NIST CSF)](https://github.com/rubabiqbal45-hub/security-risk-assessment)
 A risk assessment of a fictional small e-commerce company, scored by likelihood × impact and mapped to the NIST Cybersecurity Framework, written so a non-technical business owner can act on it — aimed at GRC/Compliance/Risk Analyst roles rather than SOC.
