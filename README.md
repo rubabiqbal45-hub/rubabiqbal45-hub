@@ -39,6 +39,11 @@ A deliberately misconfigured AWS environment (built locally, no cloud account ne
 - Found and fixed two real-world misconfigurations: a publicly-readable S3 bucket (`AllUsers: READ`) and an IAM role with unrestricted `*:*` admin access — each confirmed via CLI audit, fixed, then re-verified
 - Pivoted through three different tools (flaws.cloud → LocalStack → moto) after hitting a paid-AWS-account requirement and a vendor's free tier disappearing mid-project, without spending a cent
 
+#### 📋 [Security Risk Assessment (NIST CSF)](https://github.com/rubabiqbal45-hub/security-risk-assessment)
+A risk assessment of a fictional small e-commerce company, scored by likelihood × impact and mapped to the NIST Cybersecurity Framework, written so a non-technical business owner can act on it — aimed at GRC/Compliance/Risk Analyst roles rather than SOC.
+- Built a full risk register (8 risks, each rated likelihood × impact) and prioritized a remediation order instead of treating every finding as equally urgent
+- Mapped every recommended control to one of NIST CSF's five functions (Identify, Protect, Detect, Respond, Recover) and explained every technical term in plain language
+
 #### 🛡️ [SOC Alert Triage & Fatigue Mitigation Pipeline](https://github.com/rubabiqbal45-hub/SOC-Projects-to-Mitigate-Alert-Fatigue)
 An automated, context-aware alert-triage framework in Python that correlates multi-layered security alerts at runtime to cut down background log noise.
 - **The tech:** Python, in-context prompt blueprints, a custom multi-layered data blender matching raw logs against mock CMDB configurations
@@ -79,12 +84,13 @@ Designed and developed a full-scale digital management framework, implementing s
   - *Professional Security & Technical Specializations* – Coursera
 - **Core Toolkit:** Python, LangChain, Linux, Git Version Control, Threat Infrastructure Modeling
 
+---
 
 ### 📫 Connect with Me
 
 - **GitHub:** [@rubabiqbal45-hub](https://github.com/rubabiqbal45-hub)
 - **Email:** rubabiqbal45@gmail.com
-- **LinkedIn:** https://www.linkedin.com/in/ummerubab-iqbal/
+- **LinkedIn:** [add your LinkedIn URL here]
 
 ---
 
